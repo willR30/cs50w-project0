@@ -1,0 +1,45 @@
+@charset "UTF-8";
+/*definimos las variables con las que vamos a trabajar*/
+/*aqui estan las variables globales que seran heredadas a las demás hojas de estilos*/
+body {
+  margin: 0;
+  /*agregamos estilos a la imagen del banner*/
+  /*contenedor con texto sobre el banner*/
+}
+body #carousel_container {
+  position: absolute;
+  width: 100%;
+}
+body #img_banner_1 {
+  width: 100%;
+  height: 75vh;
+  filter: blur(3px);
+  /*difuminamos el fondo de la imagen*/
+}
+body #nav_texto_sobre_banner {
+  background-color: transparent;
+  height: 200px;
+  width: 100%;
+  text-align: center;
+  /*centramos el contenido dentro del banner*/
+  position: relative;
+  margin-top: 15%;
+}
+body #nav_texto_sobre_banner h1 {
+  color: white;
+  text-shadow: black 3px 3px 3px;
+  font-size: 50px;
+}
+body #nav_texto_sobre_banner h3 {
+  color: white;
+  text-shadow: black 3px 3px 3px;
+  font-size: 30px;
+}
+body #nav_texto_sobre_banner a {
+  font-size: 30px;
+}
+body #ContenedorTextoTargetas {
+  margin-top: 12%;
+}
+
+/*# sourceMappingURL=Home.css.map */

@@ -1,0 +1,46 @@
+/*definimos las variables con las que vamos a trabajar*/
+/*aqui estan las variables globales que seran heredadas a las demás hojas de estilos*/
+$shadow_black_color: black;
+$text_clear_color: white;
+
+body{
+    margin: 0;
+    #carousel_container{
+        position: absolute;
+        width: 100%;
+    }
+    /*agregamos estilos a la imagen del banner*/
+    #img_banner_1{
+        width: 100%;
+        height: 75vh;
+        filter: blur(3px);/*difuminamos el fondo de la imagen*/
+    }
+    /*contenedor con texto sobre el banner*/
+    #nav_texto_sobre_banner{
+        background-color:transparent; 
+        height: 200px;
+        width: 100%;   
+        text-align: center;/*centramos el contenido dentro del banner*/
+        position: relative;
+        margin-top: 15%;
+        h1{
+            color: white;
+            text-shadow: black 3px 3px 3px;
+            font-size: 50px;
+        }
+        h3{
+            color: white;
+            text-shadow: black 3px 3px 3px;
+            font-size: 30px;
+        }
+        a{
+            /*estilo del boton empezar, sobre el banner*/
+            font-size: 30px;
+            border-radius: 20px;
+        }
+    }
+    #ContenedorTextoTargetas{
+        margin-top: 12%;
+    }
+
+}
