@@ -1,0 +1,9 @@
+body #ContenedorPreguntas .card-body {
+  margin: 3%;
+  box-shadow: grey 3px 3px 3px 1px;
+}
+body footer div {
+  margin: 7%;
+}
+
+/*# sourceMappingURL=Preguntas.css.map */

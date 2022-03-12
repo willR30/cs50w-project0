@@ -1,0 +1,50 @@
+body h2 {
+  text-align: center;
+  margin-top: 10px;
+}
+body .container .card {
+  margin: 5%;
+  box-shadow: grey 3px 3px 5px;
+  /*agregamos bordes difuminados a lal targetas de los planes*/
+  text-align: center;
+  /*Centramos el texto dentro de las targetas*/
+}
+body .container .card .card-text {
+  font-size: 30px;
+}
+body .container .card a {
+  background-color: green;
+  border-color: green;
+}
+body #contenedorTabla {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+/*adaptamos la vista resonsive*/
+@media screen and (max-width: 400px) {
+  body #ContenedorTargetas {
+    display: flex;
+    justify-content: center;
+  }
+  body #ContenedorTargetas .card {
+    margin: 5%;
+    width: 18rem;
+    box-shadow: red 3px 3px 5px;
+    /*agregamos bordes difuminados a lal targetas de los planes*/
+    text-align: center;
+    /*Centramos el texto dentro de las targetas*/
+  }
+  body #ContenedorTargetas .card .card-text {
+    font-size: 30px;
+  }
+  body #ContenedorTargetas .card a {
+    background-color: green;
+  }
+  body #contenedorTabla {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+
+/*# sourceMappingURL=Servicios.css.map */

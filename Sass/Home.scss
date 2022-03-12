@@ -1,7 +1,10 @@
 /*definimos las variables con las que vamos a trabajar*/
 /*aqui estan las variables globales que seran heredadas a las demás hojas de estilos*/
 $shadow_black_color: black;
+$shador_grey_color:grey;
+$shadow_size:3px;
 $text_clear_color: white;
+$marginSizeCards: 12%;
 
 body{
     margin: 0;
@@ -36,11 +39,104 @@ body{
         a{
             /*estilo del boton empezar, sobre el banner*/
             font-size: 30px;
-            border-radius: 20px;
+            border-radius: 10px;
+            box-shadow:$shador_grey_color $shadow_size $shadow_size $shadow_size;
         }
     }
-    #ContenedorTextoTargetas{
-        margin-top: 12%;
+    
+    /*Estilizamos la targeta debajo del banner*/
+    #TargetaBajoBanner{
+        margin-left: 7%;
+        margin-right: 7%;
+        margin-top: 14%;
+        margin-bottom: 5%;
+        background-color: $text_clear_color;
+        position: relative;
+        border-radius: 15px;
+        box-shadow:$shador_grey_color $shadow_size $shadow_size $shadow_size;
+        a{
+            background-color: rgb(50, 107, 50);
+        }
     }
+    
+    footer{
+        margin-top: 1%;
+        margin-left: 7%;
+        margin-right: 7%;
+        h5{
+            text-align: center;
+        }
+    }
+}
+/*adaptamos la vista resonsive*/
+@media screen and (max-width: 1484px) {
 
+    body{
+        #img_banner_1{
+            width: 100%;
+            height: 40vh;
+            filter: blur(3px);/*difuminamos el fondo de la imagen*/
+        }
+        #TargetaBajoBanner{
+            margin-left: 7%;
+            margin-right: 7%;
+            margin-top: 15%;
+            margin-bottom: 5%;
+            background-color: $text_clear_color;
+            position: relative;
+            border-radius: 15px;
+            box-shadow:$shador_grey_color $shadow_size $shadow_size $shadow_size;
+            a{
+                background-color: rgb(50, 107, 50);
+            }
+        }
+    }
+}
+/*adaptamos la vista resonsive*/
+@media screen and (max-width: 280px) {
+
+    body{
+        #img_banner_1{
+            width: 100%;
+            height: 30vh;
+            filter: blur(3px);/*difuminamos el fondo de la imagen*/
+        }
+        #TargetaBajoBanner{
+            margin-left: 7%;
+            margin-right: 7%;
+            margin-top: 30%;
+            margin-bottom: 5%;
+            background-color: $text_clear_color;
+            position: relative;
+            border-radius: 15px;
+            box-shadow:$shador_grey_color $shadow_size $shadow_size $shadow_size;
+            a{
+                background-color: rgb(50, 107, 50);
+            }
+        }
+    }
+}
+/*adaptamos la vista resonsive*/
+@media screen and (max-width: 393px) {
+
+    body{
+        #img_banner_1{
+            width: 100%;
+            height: 40vh;
+            filter: blur(3px);/*difuminamos el fondo de la imagen*/
+        }
+        #TargetaBajoBanner{
+            margin-left: 7%;
+            margin-right: 7%;
+            margin-top: 25%;
+            margin-bottom: 5%;
+            background-color: $text_clear_color;
+            position: relative;
+            border-radius: 15px;
+            box-shadow:$shador_grey_color $shadow_size $shadow_size $shadow_size;
+            a{
+                background-color: rgb(50, 107, 50);
+            }
+        }
+    }
 }

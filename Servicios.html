@@ -1,44 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <title>FamilyBank</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+  <title>FamilyBank</title>
+  <!--vinculamos el html con l hoja de estilo generada con sass-->
+  <link rel="stylesheet" href="./Css/Servicios.css">
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="./Home.html">
-                <img src="./Resourses/Logo.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
-                FamilyBank
-              </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="./Servicios.html">Servicios</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./Contacto.html">Contacto</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./Contacto.html">Preguntas frecuentes</a>
-              </li>
-              <a id="btn_acceder" href="http://www.google.com" class="btn btn-success">Únete</a>
-            </ul>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="./index.html">
+        <img src="./Resourses/Logo.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+        FamilyBank
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="./Servicios.html">Servicios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./Contacto.html">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./Contacto.html">Preguntas frecuentes</a>
+          </li>
+          <a id="btn_acceder" href="http://www.google.com" class="btn btn-success">Únete</a>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div>
+    <h2>Accede a nuestros planes y beneficios</h2>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm">
+        <!--plan basico-->
+        <div class="card">
+          <img src="./Resourses/Targeta_1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h3 class="card-title">Básico</h5>
+              <p class="card-text">$5.99 al mes</p>
+              <a href="#" class="btn btn-primary">Obtener</a>
           </div>
         </div>
-      </nav>
-    <h1>Esta es la vista de Servicios</h1>
+      </div>
+
+      <div class="col-sm">
+        <!--plan premiun-->
+        <div class="card">
+          <img src="./Resourses/Targeta_2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h3 class="card-title">Premiun</h5>
+              <p class="card-text">$12.99 al mes</p>
+              <a href="#" class="btn btn-primary">Obtener</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm">
+        <!--plan VIP-->
+        <div class="card">
+          <img src="./Resourses/Targeta_3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h3 class="card-title">V.I.P</h5>
+              <p class="card-text">$14.99 al mes</p>
+              <a href="#" class="btn btn-primary">Obtener</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!--Empezamos a trabajar con las targetas-->
+  <div id="ContenedorTargetas">
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+  </div>
+
+  <div>
+    <h2>¿Que comprenden nuestros planes?</h2>
+  </div>
+
+  <!--tabla de detalles a nuestros planes-->
+  <div id="contenedorTabla">
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col"></th>
+          <th scope="col">Básico</th>
+          <th scope="col">Premiun</th>
+          <th scope="col">V.I.P</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Plataforma</th>
+          <td>Si</td>
+          <td>Si</td>
+          <td>SI</td>
+        </tr>
+        <tr>
+          <th scope="row">Créditos</th>
+          <td>Si</td>
+          <td>Si</td>
+          <td>SI</td>
+        </tr>
+        <tr>
+          <th scope="row">Asesoría</th>
+          <td>No</td>
+          <td>Si</td>
+          <td>SI</td>
+        </tr>
+        <tr>
+          <th scope="row">Family Market</th>
+          <td>No</td>
+          <td>Si</td>
+          <td>SI</td>
+        </tr>
+        <tr>
+          <th scope="row">Family Travel</th>
+          <td>No</td>
+          <td>No</td>
+          <td>SI</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <footer>
+    <div class="alert alert-dark" role="alert">
+      Esta paguina forma parte de una tarea para el CursoWeb50, toda la información aqui expresada es con fines
+      meramentes formativos
+    </div>
+    <h5></h5>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>

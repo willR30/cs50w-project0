@@ -5,6 +5,7 @@ body {
   margin: 0;
   /*agregamos estilos a la imagen del banner*/
   /*contenedor con texto sobre el banner*/
+  /*Estilizamos la targeta debajo del banner*/
 }
 body #carousel_container {
   position: absolute;
@@ -36,10 +37,98 @@ body #nav_texto_sobre_banner h3 {
   font-size: 30px;
 }
 body #nav_texto_sobre_banner a {
+  /*estilo del boton empezar, sobre el banner*/
   font-size: 30px;
+  border-radius: 10px;
+  box-shadow: grey 3px 3px 3px;
 }
-body #ContenedorTextoTargetas {
-  margin-top: 12%;
+body #TargetaBajoBanner {
+  margin-left: 7%;
+  margin-right: 7%;
+  margin-top: 14%;
+  margin-bottom: 5%;
+  background-color: white;
+  position: relative;
+  border-radius: 15px;
+  box-shadow: grey 3px 3px 3px;
+}
+body #TargetaBajoBanner a {
+  background-color: #326b32;
+}
+body footer {
+  margin-top: 1%;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+body footer h5 {
+  text-align: center;
+}
+
+/*adaptamos la vista resonsive*/
+@media screen and (max-width: 1484px) {
+  body #img_banner_1 {
+    width: 100%;
+    height: 40vh;
+    filter: blur(3px);
+    /*difuminamos el fondo de la imagen*/
+  }
+  body #TargetaBajoBanner {
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 15%;
+    margin-bottom: 5%;
+    background-color: white;
+    position: relative;
+    border-radius: 15px;
+    box-shadow: grey 3px 3px 3px;
+  }
+  body #TargetaBajoBanner a {
+    background-color: #326b32;
+  }
+}
+/*adaptamos la vista resonsive*/
+@media screen and (max-width: 280px) {
+  body #img_banner_1 {
+    width: 100%;
+    height: 30vh;
+    filter: blur(3px);
+    /*difuminamos el fondo de la imagen*/
+  }
+  body #TargetaBajoBanner {
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 30%;
+    margin-bottom: 5%;
+    background-color: white;
+    position: relative;
+    border-radius: 15px;
+    box-shadow: grey 3px 3px 3px;
+  }
+  body #TargetaBajoBanner a {
+    background-color: #326b32;
+  }
+}
+/*adaptamos la vista resonsive*/
+@media screen and (max-width: 393px) {
+  body #img_banner_1 {
+    width: 100%;
+    height: 40vh;
+    filter: blur(3px);
+    /*difuminamos el fondo de la imagen*/
+  }
+  body #TargetaBajoBanner {
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 25%;
+    margin-bottom: 5%;
+    background-color: white;
+    position: relative;
+    border-radius: 15px;
+    box-shadow: grey 3px 3px 3px;
+  }
+  body #TargetaBajoBanner a {
+    background-color: #326b32;
+  }
 }
 
 /*# sourceMappingURL=Home.css.map */
