@@ -109,7 +109,7 @@ body footer h5 {
   }
 }
 /*adaptamos la vista resonsive*/
-@media screen and (max-width: 393px) {
+@media screen and (max-width: 450px) {
   body #img_banner_1 {
     width: 100%;
     height: 40vh;
