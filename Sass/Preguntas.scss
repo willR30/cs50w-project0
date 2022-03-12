@@ -1,8 +1,10 @@
+/*importamos los estilos del home*/
+@import "./Home.scss";
 body{
     #ContenedorPreguntas{
         .card-body{
             margin: 3%;
-            box-shadow: grey 3px 3px 3px 1px;
+            box-shadow: $shador_grey_color $shadow_size $shadow_size $shadow_size 1px;
         }
     }
     footer{
